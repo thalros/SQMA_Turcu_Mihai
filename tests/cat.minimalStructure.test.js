@@ -7,3 +7,5 @@ test("It returns the metadata of an image in JSON format. The metadata contains 
 		expect.arrayContaining(["width", "height", "url"])
 	);
 });
+
+console.log("testing Jenkins polling");
